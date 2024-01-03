@@ -1,0 +1,38 @@
+.background-image {
+  min-width: 102vw;
+  background-image: url("https://images.pexels.com/photos/1054289/pexels-photo-1054289.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 102vh;
+  z-index: -99;
+  top: -5px;
+  left: -5px;
+  position: absolute;
+}
+
+body {
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.description {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
