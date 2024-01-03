@@ -31,5 +31,6 @@ p {
   background: #73AD21;
   padding: 20px;
   width: 1000px;
+  border: 2px solid black;
 }
 .center {margin:0 auto;}
