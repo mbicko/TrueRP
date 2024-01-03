@@ -23,6 +23,7 @@ h1 {
 .ctext {
   word-wrap: break-word;
   width: 600px;
+  text-align: center;
 }
 #rcorners1 {
   border-radius: 25px;
