@@ -3,17 +3,26 @@
 <head>
 <style>
 background-image {
+  min-width: 102vw;
   background-image: url("https://images.pexels.com/photos/1054289/pexels-photo-1054289.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 102vh;
+  z-index: -99;
+  top: -5px;
+  left: -5px;
+  position: absolute;
 }
+
 body {
   overflow: hidden;
-  text-align: center;
 }
+
 header {
   text-align: center;
 }
+
 button {
   margin: 0 auto;
   display: block;
@@ -23,6 +32,12 @@ button {
   border: 1px solid #007bff;
   border-radius: 4px;
   cursor: pointer;
+}
+
+description {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
 }
 </style>
         
@@ -34,7 +49,7 @@ button {
       <p><b>Players must be 18 or over to participate on any of the True RP game servers. No exceptions.</b> (If you are gaming on this server, we assume that you are 18 and are not liable for any adult language or content you might come into contact with.) </p>
     <h2>H2</h2>
     <h3>H3</h3>
-      <p>This is a test</p>
+      <p class="description">This is a test</p>
 
 <button onclick="window.open('http://google.com','_blank')" class="button" type="button" title="My Discord Channel">
       Discord
