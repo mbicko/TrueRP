@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+body {
+	font: 90%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+
+    background-image: url("images/bgrepeat.jpg");
+    background-repeat: repeat;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align:center;
+}
+
+p {
+	margin: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align:center;
+	color: white;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #C63;
+	text-decoration: none;
+}
+a:visited {
+	color: #C63;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+	color:#CC3
+}
+
+
+a.secondarylink { 
+	color: #09F; 
+}
+a.secondarylink:hover, a.secondarylink:active, a.secondarylink:focus { 
+	color: #3F6; 
+}
+
+ul#menu li {
+  display:inline;
+}
+
+
+.fb-page {
+    text-align: center;
+}
+
+.roundbox {
+	width: 80%;
+	max-width: 650px;
+	border-radius:5px;
+	border: 1px outset #FFF;
+	background-color: #333;
+	margin: 0 auto;
+	padding: 5px;
+}
+.roundbox:hover {
+	background-color:#333;
+}
+
+.roundboxyellow {
+	width: 80%;
+	max-width: 600px;
+	border-radius:10px;
+	border: 2px outset #666;
+	background-color:#FFF;
+	margin: 0 auto;
+	padding: 10px;
+}
+.roundboxyellow:hover {
+	background-color:#333;
+}
+
+
+
+.header {
+    text-align:center;
+}
+
+
+*/
+
+.content {
+
+	padding: 10px 0;
+    text-align:center;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	font-size: 10px;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+.images {
+   text-align:center;
+}
+.event {
+    display: block;
+    margin: 0 auto;
+	border: 2px outset #603;
+	
+}
